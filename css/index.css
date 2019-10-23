@@ -251,34 +251,41 @@ footer {
 }
 #mainAbout .listItems p {
   width: 100%;
-  height: 80%;
-  margin: 10px 10px;
-  display: flex;
-  align-items: center;
+  text-align: center;
   font-size: 30px;
   color: #FFFDF5;
 }
 #mainAbout ul li {
-  width: 25%;
+  width: 100%;
+  padding: 10px;
   height: 80%;
-  margin: 10px 10px;
+  margin: 20px 10px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   font-size: 30px;
   color: #FFFDF5;
 }
 #mainAbout .teamwork img {
   margin-top: 13px;
+  margin: 0 auto;
   width: 30%;
   height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 #mainAbout .teamwork h4 {
-  width: 25%;
-  height: 80%;
-  margin: 10px 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 10px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   font-size: 30px;
+}
+#mainAbout .teamwork h4 a {
+  text-decoration: underline;
   color: #FFFDF5;
 }
 #mainAbout footer {
